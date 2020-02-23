@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+     <template id="website_test_form_assets_frontend"
+               inherit_id="web.assets_frontend">
+         <xpath expr="." position="inside">
+              <script
+                      src="/website_test_form/static/src/js/lib/recaptcha.js"></script>
+         </xpath>
+     </template>
+</odoo>
