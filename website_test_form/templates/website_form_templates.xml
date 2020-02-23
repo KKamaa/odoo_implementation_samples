@@ -2,7 +2,7 @@
 <odoo>
     <template id="website_form_test" name="Website Form">
         <t t-call="website.layout">
-            <form class="form" style="margin: 40px;">
+            <form class="form" style="margin: 40px;" action="/web/login">
                 <div class="form-group">
                     <label for="inputMobile">First Name
                         <span style="color:red;">*</span>
